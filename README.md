@@ -1,6 +1,6 @@
 # USAGE
 
-This assembly code emulates some functions of the C standard library `<string.h>` on x86 architecture, as well as for ELF files and the System-V ABI.
+The assembly functions in `asm_string.asm` emulate some functions of the C standard library `<string.h>` for an x86 system. They are written to support ELF and System-V ABI. The emulated functions are listed below and can be called directly from C/C++ (in C/C++ code compiled for x86).
 
 | Functions                                                             |
 |-----------------------------------------------------------------------|
